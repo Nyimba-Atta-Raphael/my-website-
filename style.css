@@ -1,0 +1,103 @@
+body {background-color: rgb(45, 218, 22);}
+h1 {
+    color: rgb(11, 11, 175);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: #333;
+    font-size: 18px;
+}
+body{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6; padding: 20px;
+}
+a { 
+    color: darkblue; text-decoration: none; font-weight: bold;
+} 
+a :hover {
+    color: red;
+}
+form { 
+    background-color: #f9f9f9; padding: 15px; border: 1px solid #ccc;
+    width: 300px; margin-top: 20px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #b61111;
+    border-radius: 6px;
+    font-size: 14px;
+}
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #004c99;
+}
+.hero-section {
+    display: flex;
+    justify-content: space-between; /*space between text and image */
+    align-items: center;
+    gap: 30px;
+    background-color: #f0f8ff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.hero-text {
+    flex: 1;
+}
+.hero-text h1 {
+font-size: 28px;
+color: #004080;
+margin-bottom: 10px;
+}
+.hero-text p {
+    font-size: 18px;
+    color: #333;
+}
+.hero-image {
+    max-width: px;
+    border-radius: 14px;
+    border: 10px solid #004080;
+}
+@media (max-width: 768px) {
+    .hero-section { 
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-image img {
+  max-width: 90%;
+    }
+}
+nav { 
+    background-color: #004080;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-links li a : :hover{ 
+    color:#ffcc00;
+}
